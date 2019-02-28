@@ -72,7 +72,7 @@ class Africa extends Component {
 
                         )}
     
-                      <h1>Africa Reviews!</h1>
+                      <h1>Add African Country Below</h1>
 
                         <AddNewAfrica getAllAfrica={this.getAllAfrica} />
 

@@ -72,7 +72,7 @@ class Asia extends Component {
 
                         )}
     
-                      <h1>Asia Reviews!</h1>
+                      <h1>Add Asian Country Below</h1>
 
                         <AddNewAsia getAllAsia={this.getAllAsia} />
 

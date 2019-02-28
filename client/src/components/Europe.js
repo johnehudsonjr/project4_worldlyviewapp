@@ -72,7 +72,7 @@ class Europe extends Component {
 
                         )}
     
-                      <h1>Europe Reviews!</h1>
+                      <h1>Add European Country Below</h1>
 
                         <AddNewEurope getAllEurope={this.getAllEurope} />
 
