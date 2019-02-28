@@ -15,10 +15,10 @@ router.delete('/api/africa/:africaId', africaController.delete)
 router.patch('/api/africa/:africaId', africaController.update)
 router.post('/api/africa/', africaController.create)
 
-// router.get('/api/asia', asiaController.index)
-// router.delete('/api/asia/:asiaId', asiaController.delete)
-// router.patch('/api/asia/:asiaId', asiaController.update)
-// router.post('/api/asia/', asiaController.create)
+router.get('/api/asia', asiaController.index)
+router.delete('/api/asia/:asiaId', asiaController.delete)
+router.patch('/api/asia/:asiaId', asiaController.update)
+router.post('/api/asia/', asiaController.create)
 
 
 module.exports = router
