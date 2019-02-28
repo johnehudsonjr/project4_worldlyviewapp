@@ -6,12 +6,12 @@ class Navbar extends Component {
     return (
       <div>
         <nav
-          class="navbar is-info"
+          class="navbar is-warning"
           role="navigation"
           aria-label="main navigation"
         >
           <div class="navbar-brand">
-            <h1 class="navbarFont"> Country Review</h1>
+            <h1 class="navbarFont"> Been <br/>There App </h1>
             <button
               class="navbar-burger burger"
               aria-label="menu"
