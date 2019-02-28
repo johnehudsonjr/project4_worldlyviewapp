@@ -1,15 +1,16 @@
-const express = require('express') 
-const app = express() 
+require('dotenv').config()
+const express = require('express')
+const app = express()
 const routes = require('./routes/index')
 const mongoose = require('mongoose')
 
 app.use(express.urlencoded({ extended: true }))
-
 app.use(express.json())
-
 app.use(express.static(__dirname + '/client/build/'))
 
-app.get('/', (req, res) => { res.sendFile(__dirname + '/client/build/index.html') })
+app.get('/', (req, res) => {
+res.sendFile(__dirname + '/client/build/index.html')
+})
 
 app.use('/', routes)
 
