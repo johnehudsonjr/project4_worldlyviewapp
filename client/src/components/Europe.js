@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios'
-import AddNewEurope from './AddNewEurope';
-import EditEurope from './EditEurope'
+import AddNewEurope from './europe/AddNewEurope';
+import EditEurope from './europe/EditEurope'
 import Navbar from './Navbar';
 
 class Europe extends Component {
