@@ -32,9 +32,6 @@ class Europe extends Component {
         });
     };
 
-
-
-
     render() {
         return (
 
@@ -47,14 +44,14 @@ class Europe extends Component {
                         <div class="card container">
                             <div class="card-image">
                                 <figure class="image is-4by3">
-                                    <img src={europeReview.image} alt="Placeholder" />
+                                    <img src={europeReview.euImage} alt="Placeholder" />
                                 </figure>
                             </div>
                             <div class="card-content">
                                 <div class="media">
                                     <div class="media-left">
                                         <figure class="image is-48x48">
-                                            <img src={europeReview.image} alt="Placeholder 2" />
+                                            <img src={europeReview.euImage} alt="Placeholder 2" />
                                         </figure>
                                     </div>
 
@@ -70,7 +67,7 @@ class Europe extends Component {
                             </div>
                         </div>
 
-                            <EditEurope getAllFinds={this.getAllFinds} findId={europeReview._id} />
+                            <EditEurope getAllEurope={this.getAllEurope} europeId={europeReview._id} />
                         </div>
 
                         )}

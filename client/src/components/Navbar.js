@@ -11,7 +11,7 @@ class Navbar extends Component {
           aria-label="main navigation"
         >
           <div class="navbar-brand">
-            <h1 class="navbarFont"> Country Review App </h1>
+            <h1 class="navbarFont"> Country Review</h1>
             <button
               class="navbar-burger burger"
               aria-label="menu"
