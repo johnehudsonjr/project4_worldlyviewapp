@@ -12,7 +12,7 @@ It would also be cool to have a landing page map as well.
 # Live site
 
 # View the app here:
-ADD HEROKU LINK
+https://intense-mesa-39102.herokuapp.com/
 
 # Technologies Used:
 For this project I used the following languages/programs:
@@ -32,6 +32,8 @@ https://trello.com/b/Ehf47KlM/country-review-app
 
 These individuals were helpful in working through this project.
 
+Noah Harvey (WDI)
+Tory Thompson (CodeBridge)
 Brad Traversy Media (Really helped me grasp React.js)
 Shalain
 Destin
