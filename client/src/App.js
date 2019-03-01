@@ -6,6 +6,7 @@ import Europe from './components/Europe'
 import Asia from './components/Asia'
 import Africa from './components/Africa'
 
+
 class App extends Component {
   render() {
     return (

@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+import WorldView from "./WorldView"
 
 class Homepage extends Component {
   render() {
@@ -35,6 +36,7 @@ class Homepage extends Component {
             </div>
           </div>
         </section>
+        <WorldView/>
       </div>
     );
   }
